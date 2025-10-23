@@ -36,12 +36,12 @@
 
 
 
-        echo $CDTitle;
-        echo $ReleaseYear;
-        echo $NoTracks;
-        echo $Label;
-        echo $ArtistName;
-        echo $CDPrice;
+        echo "title" . $CDTitle;
+        echo "yr" . $ReleaseYear;
+        echo "tracks" . $NoTracks;
+        echo "label" . $Label;
+        echo "artist" . $ArtistName;
+        echo "price" . $CDPrice;
 
 
 
