@@ -50,7 +50,7 @@
         // Create the SQL statement - Thie SQL statement follows the general insert statement which is :
         // insert into [TableName] [Fieldnames] Values [values to insert]
         
-        $Query = "insert into CDsAuto (CDtitle,NoTracks,Label,ReleaseYear,Artistname) values ('$CDTitle','$NoTracks','$Label','$ReleaseYear','$ArtistName')";
+        $Query = "insert into CDsAuto (CD_title,NoTracks,Label,Release_Year,Artist_name) values ('$CDTitle','$NoTracks','$Label','$ReleaseYear','$ArtistName')";
 
         // Now run the query - i.e. Insert the data into the table
         
