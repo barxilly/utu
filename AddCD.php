@@ -1,9 +1,6 @@
 <html>
 
-<head>
-    <title>UHI Tunes Add CD</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
+<?php include 'head.php'; ?>
 <header>
     <h1>UHI Tunes</h1>
 </header>

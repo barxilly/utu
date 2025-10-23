@@ -1,9 +1,6 @@
 <html>
 
-<head>
-    <title>UHI Tunes</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
+<?php include 'head.php'; ?>
 
 <body>
     <header>

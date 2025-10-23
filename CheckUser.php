@@ -2,10 +2,7 @@
 <!-- author, date, prject description-->
 <html>
 
-<head>
-  <title>UHI Tunes successful login</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
+<?php include 'head.php'; ?>
 
 <body>
   <header>
@@ -45,11 +42,7 @@
   
     //	it's the first element - element 0 - from the row array if using line 35
   
-    echo '<br/>Associated User no is  ' . $UserNo . '  <FORM METHOD="LINK" ACTION="AddCD.php">
-
-
-    <INPUT TYPE="submit" VALUE="Enter site">
-  </FORM>'; // or 'UserNo' if line 36
+    echo '<br/>Associated User no is  ' . $UserNo . '  <FORM METHOD="LINK" ACTION="AddCD.php"><INPUT TYPE="submit" VALUE="Enter site"></FORM>'; // or 'UserNo' if line 36
 //	echo '<h3>Associated User no is  '.$UserNo.'</h3>'; // or 'UserNo' if line 36
   
   } else
