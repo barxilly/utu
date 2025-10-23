@@ -5,10 +5,18 @@
 <?php include 'head.php'; ?>
 
 <body>
-  <header>
-    <h1>UHI Tunes</h1>
-  </header>
-  <?php
+    <header>
+        <h1>UHI Tunes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a class="active" href="Login.php">Login</a></li>
+        </ul>
+    </nav>
+    <?php
   include("DbConnect.php");              // Add in the database connection details
   
   // Now get the information from the Form

@@ -1,5 +1,7 @@
 body {
   font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #e8ebeca1 0%, #fff 10%) no-repeat;
 }
 
 h1 {
@@ -55,8 +57,9 @@ ul {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 80vw;
+  max-width: 90vw;
   justify-content: space-between;
+  padding: 0;
 }
 
 li {
