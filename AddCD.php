@@ -20,37 +20,43 @@
 
 <body>
     <h1>Add CD</h1>
-
     <form method="POST" action="InsertCD.php">
-
         <table>
             <tr>
                 <td>CD Title:</td>
-                <td><input type="text" name="CDTitle" size="50" "> </td>
- </tr>
- <tr>
-  <td>Number of tracks:</td>
-  <td><input type=" number" name="NoTracks" size="2"> </td>
+                <td>
+                    <input type="text" name="CDTitle" size="50" ">
+                </td>
+            </tr>
+            <tr>
+                <td>Number of tracks:</td>
+                <td>
+                    <input type=" number" name="NoTracks" size="2">
+                </td>
             </tr>
             <tr>
                 <td>Label:</td>
-                <td><input type="text" name="Label" size="20" "> </td>
- </tr>
- <tr>
-  <td>Release Year:</td>
-  <td><input type=" text" name="ReleaseYear" size="4" "> </td>
- </tr>
-    <tr>
-  <td>Artist name:</td>
-  <td><input type=" text" name="ArtistName" size="20" "> </td>
- </tr>
-    <tr>
-  <td>CD Price:</td>
-  <td><input type=" text" name="CDPrice" size="6" "> </td>
- </tr>
-    <tr>
-  
- <td colspan=" 2"><input type="submit" value="Add CD" /></td>
+                <td>
+                    <input type="text" name="Label" size="20" ">
+                </td>
+            </tr>
+            <tr>
+                <td>Release Year:</td>
+                <td>
+                    <input type=" text" name="ReleaseYear" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td>Artist name:</td>
+                <td><input type="text" name="ArtistName" size="20" "> </td>
+            </tr>
+            <tr>
+                <td>CD Price:</td>
+                <td><input type= " text" name="CDPrice" size="6" "> </td>
+            </tr>
+            <tr>
+                <td colspan=" 2"><br><input type="submit" value="Add CD" />
+                </td>
             </tr>
             <tr>
                 <td colspan="2"><input type="reset" value="Clear" /></td>

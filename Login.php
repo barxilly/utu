@@ -7,8 +7,7 @@
         <h1>UHI Tunes</h1>
     </header>
     <h2>Miracle Security System</h2>
-
-    <h2>Existing User - Please enter your Email address and password</h2>
+    <h3>Existing User - Please enter your Email address and password</h3>
 
     <form method="post" action="CheckUser.php">
         <table>
@@ -27,15 +26,12 @@
         </table>
     </form>
 
-    <h2>New users - click button here</h2>
+    <h3>New users - click button here</h3>
     <FORM METHOD="LINK" ACTION="RegUser.php">
         <INPUT TYPE="submit" VALUE="Register">
     </FORM>
 
 
 </body>
-<footer>
-
-</footer>
 
 </html>
